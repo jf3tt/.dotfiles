@@ -11,4 +11,5 @@ Current configuration contains:
 - waybar
 
 To install packages from pkglist:
+
 `pacman -S --needed - < pkglist.txt`
