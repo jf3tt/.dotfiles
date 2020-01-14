@@ -7,8 +7,9 @@ Current configuration contains:
 - herbstluftwm
 - polybar
 - vim
-- zsh
 - waybar
+- .Xresources
+- .zshrc
 
 To install packages from pkglist:
 
