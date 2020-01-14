@@ -1,0 +1,5 @@
+alias ka="kubectl apply -f"
+alias kd="kubectl delete -f"
+alias kga="kubectl get all --all-namespaces"
+
+alias welltory-ipsec="nmcli connection up welltory-ipsec"
