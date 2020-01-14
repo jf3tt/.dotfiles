@@ -3,8 +3,12 @@
 
 Current configuration contains:
 - alacritty
-- compton
+- sway
 - herbstluftwm
 - polybar
 - vim
 - zsh
+- waybar
+
+To install packages from pkglist:
+`pacman -S --needed - < pkglist.txt`
