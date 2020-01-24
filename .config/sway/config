@@ -147,6 +147,8 @@ gaps outer 10
     bindsym $mod+Shift+Down move down
     bindsym $mod+Shift+Up move up
     bindsym $mod+Shift+Right move right
+
+bindsym $mod+Shift+S sticky toggle
 #
 # Workspaces:
 #
@@ -225,11 +227,17 @@ gaps outer 10
     bindsym $mod+minus scratchpad show
 
 ### Assignment
-for_window [class="Spotify"] move window to workspace 
-for_window [class="Chromium"] move window to workspace 
-for_window [class="Slack"] move window to workspace 
-for_window [class="TelegramDesktop"] move window to workspace 
+for_window [class="Spotify"] move window to workspace $ws10
+for_window [class="Chromium"] move window to workspace $ws2
+for_window [class="Slack"] move window to workspace $ws5
+for_window [class="TelegramDesktop"] move window to workspace $ws8
 
+for_window [app_id="blueman-manager"] floating enable
+for_window [class="vlc"] floating enable
+for_window [class="Gimp"] floating enable
+for_window [class="zoom"] floating enable
+for_window [app_id="mpv"] floating enable
+#for_window [class="zoom"] floating enable, move to scratchpad, scratchpad show, resize set 900px 400px,move position 1000px 20px
 
 #
 # Resizing containers:
